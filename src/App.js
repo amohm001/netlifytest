@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -9,7 +10,7 @@ function App() {
       <header className="App-header">
 
         <p>
-          What's Gucci fam <code></code> soon to be.
+          Bewegeretma <code></code>.
         </p>
         <a
           className="App-link"
