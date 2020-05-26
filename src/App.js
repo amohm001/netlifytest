@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Test2 Continous Integration
+          Welcome to Amir's website
         </a>
       </header>
     </div>
