@@ -1,27 +1,31 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
-import logo from './logo.svg';
+
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
+import Home from "./components/homepage";
+import Experience from "./components/experience";
+import Contact from "./components/contact";
+import About from "./components/about";
 
-function App() {
-  return (
-    <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
-      <header className="App-header">
 
-        <p>
-          Bewegeretma <code></code>.
-        </p>
-        <a
-          className="App-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Welcome to Amir's website
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+
+      <Router>
+        <div>
+          <Route exact path="/" component={Home} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/home" component={Home} />
+
+        </div>
+      </Router>
+
+    );
+  }
 }
 
 export default App;
