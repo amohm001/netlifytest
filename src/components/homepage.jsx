@@ -287,6 +287,7 @@ class Home extends Component {
                         }}>
                             Designed & Built by Amire Mohmed
                         </p>
+                        contact me
                         <nav style={{ justifyContent: "space-between" }}>
 
                             <a href="mailto: amirditamo@gmail.com" style={{ marginRight: "20px" }}>
