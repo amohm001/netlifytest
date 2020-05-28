@@ -41,7 +41,10 @@ class Home extends Component {
                 </header>
                 <div style={{ padding: "3em 0 0", margin: "0 auto", flex: "1 1", display: "flex", flexDirection: "column", justifyContent: "center", backgroundColor: "#4f6777" }}>
                     <img src={bigPic} style={{
-                        maxWidth: "40%"
+                        maxWidth: "40%",
+                        maxHeight: "40%",
+                        alignItems: "center",
+                        display: "flex"
                     }} />
                 </div>
                 <div style={{ backgroundColor: "#C26868", height: "500px" }}>
@@ -49,16 +52,16 @@ class Home extends Component {
                     <div style={{
                         color: "#fafafa", marginLeft: "90px",
                         fontWeight: "700",
-                        paddingTop: "60px",
+                        paddingTop: "20px",
                         fontFamily: "Open Sans, sans-serif",
                         letterSpacing: "0.5emm",
                         fontSize: "25px",
                     }}> Hello! I'm</div>
-                    <div style={{ paddingTop: "20px", marginLeft: "70px", fontSize: "75px", color: "#fafafa", fontWeight: "700", fontFamily: "Open Sans, sans-serif", letterSpacing: "0.5emm", }}>Amir.</div>
+                    <div style={{ paddingTop: "10px", marginLeft: "70px", fontSize: "75px", color: "#fafafa", fontWeight: "700", fontFamily: "Open Sans, sans-serif", letterSpacing: "0.5emm", }}>Amir.</div>
                     <h2 style={{
                         color: "#fafafa", marginLeft: "70px",
                         fontWeight: "700",
-                        paddingTop: "20px",
+                        paddingTop: "7px",
                         fontFamily: "Open Sans, sans-serif",
                         letterSpacing: "0.5emm",
                         fontSize: "20px",
@@ -66,7 +69,7 @@ class Home extends Component {
                     <h2 style={{
                         color: "#fafafa", marginLeft: "70px",
                         fontWeight: "700",
-                        paddingTop: "5px",
+                        paddingTop: "1px auto",
                         fontFamily: "Open Sans, sans-serif",
                         letterSpacing: "0.5emm",
                         fontSize: "20px",
@@ -89,7 +92,68 @@ class Home extends Component {
                         </a>
                     </nav>
 
+                    <nav style={{
+                        backgroundColor: "#ffeed8",
+                        padding: "1em 0",
+                        width: "80%",
+                        display: "flex",
+                        justifyContent: "space-around",
+                        alignItems: "center",
+                        margin: "2em auto",
+                        boxSizing: "border-box",
+                        borderRadius: "100px"
+                    }}>
+                        <button style={{
+                            fontSize: "13px",
+                            fontFamily: "inherit",
+                            color: "#1a1245",
+                            fontWeight: "500",
+                            border: "None",
+                            backgroundColor: "#fff",
+                            boxSizing: "border-box",
+                            padding: "10px 15px",
+                            borderRadius: "50px",
+                            cursor: "pointer"
+                        }}>Home</button>
+                        <button style={{
+                            fontSize: "13px",
+                            fontFamily: "inherit",
+                            color: "#1a1245",
+                            fontWeight: "500",
+                            border: "None",
+                            backgroundColor: "transparent",
+                            boxSizing: "border-box",
+                            padding: "10px 15px",
+                            borderRadius: "50px",
+                            cursor: "pointer"
+                        }}>About</button>
+                        <button style={{
+                            fontSize: "13px",
+                            fontFamily: "inherit",
+                            color: "#1a1245",
+                            fontWeight: "500",
+                            border: "None",
+                            backgroundColor: "transparent",
+                            boxSizing: "border-box",
+                            padding: "10px 15px",
+                            borderRadius: "50px",
+                            cursor: "pointer"
+                        }}>Experience</button>
+                        <button style={{
+                            fontSize: "13px",
+                            fontFamily: "inherit",
+                            color: "#1a1245",
+                            fontWeight: "500",
+                            border: "None",
+                            backgroundColor: "transparent",
+                            boxSizing: "border-box",
+                            padding: "10px 15px",
+                            borderRadius: "50px",
+                            cursor: "pointer"
+                        }}>Contact</button>
 
+
+                    </nav>
 
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", gridColumn: "2", textAlign: "center" }}>
@@ -253,18 +317,13 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
+
                 <footer style={{
                     display: "grid",
                     gridTemplateColumns: "minmax(10vw,1fr) minmax(0,90rem) minmax(10vw,1fr)",
                     marginTop: "2em"
                 }}>
-                    <div style={{
-                        display: "flex",
-                        alignItems: "Center",
-                        margin: "2em",
-                        justifyContent: "space-between",
-                        gridColumn: "2"
-                    }}>
+                    <div style={{ flexDirection: "column", display: "flex", alignItems: "center", margin: "2em 0", justifyContent: "space-between", gridColumn: "2" }}>
                         <h1 style={{
                             color: "#4f6777",
                             display: "block",
@@ -276,6 +335,9 @@ class Home extends Component {
                             fontWeight: "bold"
                         }}>Amir.</h1>
                         <p style={{
+                            margin: "20px 0",
+                            display: "flex",
+                            alignItems: "center",
                             fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                             fontSize: "15px",
                             marginBlockStart: "1em",
@@ -286,27 +348,29 @@ class Home extends Component {
                             Designed & Built by Amire Mohmed
                         </p>
 
-                        <nav style={{ justifyContent: "space-between" }}>
+                        <nav style={{ display: "flex", justifyContent: "space-between", width: "auto" }}>
 
-                            <a href="mailto: amirditamo@gmail.com" style={{ marginRight: "20px" }}>
+                            <a href="mailto: amirditamo@gmail.com" >
                                 <img src={gmail} />
                             </a>
-                            <a href="https://github.com/amohm001" style={{ marginRight: "20px" }} >
+                            <a href="https://github.com/amohm001"  >
                                 <img src={github} />
                             </a>
-                            <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/" style={{ marginRight: "20px" }} >
+                            <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/"  >
                                 <img src={linkedin} />
                             </a>
-                            <a href="https://www.instagram.com/amir.mohmedd/" style={{ marginRight: "20px" }} >
+                            <a href="https://www.instagram.com/amir.mohmedd/"  >
                                 <img src={instagram} />
                             </a>
-                            <a href="https://twitter.com/Amir_Ditamo" style={{ marginRight: "0px" }} >
+                            <a href="https://twitter.com/Amir_Ditamo"  >
                                 <img src={twitter} />
                             </a>
                         </nav>
 
                     </div>
+
                 </footer>
+
             </div >
         );
     }
