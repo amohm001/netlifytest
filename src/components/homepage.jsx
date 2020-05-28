@@ -39,11 +39,9 @@ class Home extends Component {
                         </div>
                     </nav>
                 </header>
-                <div style={{ textAlign: "center", backgroundColor: "#4f6777" }}>
+                <div style={{ padding: "3em 0 0", margin: "0 auto", flex: "1 1", display: "flex", flexDirection: "column", justifyContent: "center", backgroundColor: "#4f6777" }}>
                     <img src={bigPic} style={{
-                        textAlign: "center",
-                        height: "300px",
-                        width: "600px"
+                        maxWidth: "40%"
                     }} />
                 </div>
                 <div style={{ backgroundColor: "#C26868", height: "500px" }}>
@@ -100,7 +98,7 @@ class Home extends Component {
                         fontFamily: "Open Sans, sans-serif",
                         fontSize: "3em",
                         fontWeight: "lighter",
-                        marginRight: "150px"
+                        // marginRight: "150px"
                     }}>Skills</h1>
                     <div style={{ display: "flex", margin: "0 auto" }}>
                         <div style={{ marginRight: "30px", display: "block" }}>
@@ -224,7 +222,7 @@ class Home extends Component {
                                 marginInlineStart: "0px",
                                 marginInlineEnd: "0px",
                                 fontWeight: "bold",
-                                marginRight: "150px"
+                                // marginRight: "150px"
                             }}> Others </h3>
                             <div style={{ display: "block" }}>
                                 <div style={{
@@ -287,7 +285,7 @@ class Home extends Component {
                         }}>
                             Designed & Built by Amire Mohmed
                         </p>
-                        contact me @
+
                         <nav style={{ justifyContent: "space-between" }}>
 
                             <a href="mailto: amirditamo@gmail.com" style={{ marginRight: "20px" }}>
