@@ -20,8 +20,10 @@ class Home extends Component {
     render() {
         return (
             <div >
+
                 <header >
-                    <nav style={{ position: "sticky" }}>
+
+                    <nav>
                         <div>
                             <img src={logo} className="App-logo" alt="logo" style={{
                                 float: "left",
@@ -33,64 +35,69 @@ class Home extends Component {
                                 fontFamily: "Montserrat, sans-serif",
                                 // color: "rgb(204, 214, 246)",
                                 color: "#4f6777",
-                                fontSize: "25px",
+                                fontSize: "20px",
+
 
                             }}>Amire Mohmed</h1>
+
                         </div>
                     </nav>
+
                 </header>
-                <div style={{ padding: "3em 0 0", margin: "0 auto", flex: "1 1", display: "flex", flexDirection: "column", justifyContent: "center", backgroundColor: "#4f6777" }}>
+
+                <div style={{ backgroundColor: "#4f6777", textAlign: "center" }}>
                     <img src={bigPic} style={{
-                        maxWidth: "40%",
-                        maxHeight: "40%",
+                        maxWidth: "45%",
+                        maxHeight: "30%",
                         alignItems: "center",
-                        display: "flex"
+
                     }} />
                 </div>
-                <div style={{ backgroundColor: "#C26868", height: "500px" }}>
-
-                    <div style={{
-                        color: "#fafafa", marginLeft: "90px",
-                        fontWeight: "700",
-                        paddingTop: "20px",
-                        fontFamily: "Open Sans, sans-serif",
-                        letterSpacing: "0.5emm",
-                        fontSize: "25px",
-                    }}> Hello! I'm</div>
-                    <div style={{ paddingTop: "10px", marginLeft: "70px", fontSize: "75px", color: "#fafafa", fontWeight: "700", fontFamily: "Open Sans, sans-serif", letterSpacing: "0.5emm", }}>Amir.</div>
-                    <h2 style={{
-                        color: "#fafafa", marginLeft: "70px",
-                        fontWeight: "700",
-                        paddingTop: "7px",
-                        fontFamily: "Open Sans, sans-serif",
-                        letterSpacing: "0.5emm",
-                        fontSize: "20px",
-                    }}> Web & Software developer.</h2>
-                    <h2 style={{
-                        color: "#fafafa", marginLeft: "70px",
-                        fontWeight: "700",
-                        paddingTop: "1px auto",
-                        fontFamily: "Open Sans, sans-serif",
-                        letterSpacing: "0.5emm",
-                        fontSize: "20px",
-                    }}> UI/UX Designer.</h2>
-                    <nav style={{ display: "flex", justifyContent: "space-evenly", maxWidth: "400px" }}>
-                        <a href="mailto: amirditamo@gmail.com">
-                            <img src={gmail} />
-                        </a>
-                        <a href="https://github.com/amohm001">
-                            <img src={github} />
-                        </a>
-                        <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/">
-                            <img src={linkedin} />
-                        </a>
-                        <a href="https://www.instagram.com/amir.mohmedd/">
-                            <img src={instagram} />
-                        </a>
-                        <a href="https://twitter.com/Amir_Ditamo">
-                            <img src={twitter} />
-                        </a>
-                    </nav>
+                <div style={{ backgroundColor: "#C26868", height: "430px" }}>
+                    <div style={{ textAlign: "left" }}>
+                        <div style={{
+                            color: "#fafafa", marginLeft: "90px",
+                            fontWeight: "700",
+                            paddingTop: "20px",
+                            fontFamily: "Open Sans, sans-serif",
+                            letterSpacing: "0.5emm",
+                            fontSize: "25px",
+                        }}> Hello! I'm</div>
+                        <div style={{ paddingTop: "10px", marginLeft: "70px", fontSize: "75px", color: "#fafafa", fontWeight: "700", fontFamily: "Open Sans, sans-serif", letterSpacing: "0.5emm", }}>Amir.</div>
+                        <h2 style={{
+                            color: "#fafafa", marginLeft: "70px",
+                            fontWeight: "700",
+                            paddingTop: "7px",
+                            fontFamily: "Open Sans, sans-serif",
+                            letterSpacing: "0.5emm",
+                            fontSize: "20px",
+                        }}> Web & Software developer.</h2>
+                        <h2 style={{
+                            color: "#fafafa", marginLeft: "70px",
+                            fontWeight: "700",
+                            paddingTop: "1px auto",
+                            fontFamily: "Open Sans, sans-serif",
+                            letterSpacing: "0.5emm",
+                            fontSize: "20px",
+                        }}> UI/UX Designer.</h2>
+                        <nav style={{ display: "flex", justifyContent: "normal", width: "auto", marginLeft: "50px" }}>
+                            <a href="mailto: amirditamo@gmail.com">
+                                <img src={gmail} />
+                            </a>
+                            <a href="https://github.com/amohm001">
+                                <img src={github} />
+                            </a>
+                            <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/">
+                                <img src={linkedin} />
+                            </a>
+                            <a href="https://www.instagram.com/amir.mohmedd/">
+                                <img src={instagram} />
+                            </a>
+                            <a href="https://twitter.com/Amir_Ditamo">
+                                <img src={twitter} />
+                            </a>
+                        </nav>
+                    </div>
 
                     <nav style={{
                         backgroundColor: "#ffeed8",
