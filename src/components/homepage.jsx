@@ -59,11 +59,12 @@ class Home extends Component {
 
                 </header>
 
-                <div style={{ backgroundColor: "#4f6777", textAlign: "center" }}>
+                <div style={{ backgroundColor: "#4f6777", left: "30%" }}>
                     <img src={bigPic} style={{
 
-                        maxWidth: "45%",
+
                         height: "200px",
+                        width: "350px",
                         alignItems: "center",
 
                     }} />
