@@ -16,10 +16,24 @@ import { findByLabelText } from "@testing-library/react";
 
 
 class Home extends Component {
+    state = {
+        displayHandle: false,
+        redirect: ""
+    }
+    about = () => {
+        this.setState({ redirect: "/about" })
+    }
+    exp = () => {
+        this.setState({ redirect: "/experience" })
+    }
+    contact = () => {
+        this.setState({ redirect: "/contact" })
+    }
+
 
     render() {
         return (
-            <div >
+            <div style={{ display: "block", width: "100%" }}>
 
                 <header >
 
@@ -47,39 +61,43 @@ class Home extends Component {
 
                 <div style={{ backgroundColor: "#4f6777", textAlign: "center" }}>
                     <img src={bigPic} style={{
+
                         maxWidth: "45%",
-                        maxHeight: "30%",
+                        height: "200px",
                         alignItems: "center",
 
                     }} />
                 </div>
-                <div style={{ backgroundColor: "#C26868", height: "430px" }}>
-                    <div style={{ textAlign: "left" }}>
+                <div style={{ backgroundColor: "#C26868", height: "380px" }}>
+                    <div style={{ display: "flex", flexDirection: "column" }}>
                         <div style={{
-                            color: "#fafafa", marginLeft: "90px",
+                            color: "#fafafa", marginLeft: "70px",
                             fontWeight: "700",
-                            paddingTop: "20px",
-                            fontFamily: "Open Sans, sans-serif",
+                            paddingTop: "15px",
+                            fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                             letterSpacing: "0.5emm",
-                            fontSize: "25px",
+                            fontSize: "20px",
                         }}> Hello! I'm</div>
-                        <div style={{ paddingTop: "10px", marginLeft: "70px", fontSize: "75px", color: "#fafafa", fontWeight: "700", fontFamily: "Open Sans, sans-serif", letterSpacing: "0.5emm", }}>Amir.</div>
+                        <div style={{
+                            paddingTop: "3px", marginLeft: "70px", fontSize: "45px", color: "#fafafa", fontWeight: "700",
+                            fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace", letterSpacing: "0.5emm",
+                        }}>Amir.</div>
                         <h2 style={{
                             color: "#fafafa", marginLeft: "70px",
                             fontWeight: "700",
-                            paddingTop: "7px",
-                            fontFamily: "Open Sans, sans-serif",
+
+                            fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                             letterSpacing: "0.5emm",
-                            fontSize: "20px",
+                            fontSize: "13px",
                         }}> Web & Software developer.</h2>
-                        <h2 style={{
+                        <div style={{
                             color: "#fafafa", marginLeft: "70px",
                             fontWeight: "700",
-                            paddingTop: "1px auto",
-                            fontFamily: "Open Sans, sans-serif",
+                            paddingBottom: "40px",
+                            fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                             letterSpacing: "0.5emm",
-                            fontSize: "20px",
-                        }}> UI/UX Designer.</h2>
+                            fontSize: "13px",
+                        }}> UI/UX Designer.</div>
                         <nav style={{ display: "flex", justifyContent: "normal", width: "auto", marginLeft: "50px" }}>
                             <a href="mailto: amirditamo@gmail.com">
                                 <img src={gmail} />
@@ -122,48 +140,54 @@ class Home extends Component {
                             borderRadius: "50px",
                             cursor: "pointer"
                         }}>Home</button>
-                        <button style={{
-                            fontSize: "13px",
-                            fontFamily: "inherit",
-                            color: "#1a1245",
-                            fontWeight: "500",
-                            border: "None",
-                            backgroundColor: "transparent",
-                            boxSizing: "border-box",
-                            padding: "10px 15px",
-                            borderRadius: "50px",
-                            cursor: "pointer"
-                        }}>About</button>
-                        <button style={{
-                            fontSize: "13px",
-                            fontFamily: "inherit",
-                            color: "#1a1245",
-                            fontWeight: "500",
-                            border: "None",
-                            backgroundColor: "transparent",
-                            boxSizing: "border-box",
-                            padding: "10px 15px",
-                            borderRadius: "50px",
-                            cursor: "pointer"
-                        }}>Experience</button>
-                        <button style={{
-                            fontSize: "13px",
-                            fontFamily: "inherit",
-                            color: "#1a1245",
-                            fontWeight: "500",
-                            border: "None",
-                            backgroundColor: "transparent",
-                            boxSizing: "border-box",
-                            padding: "10px 15px",
-                            borderRadius: "50px",
-                            cursor: "pointer"
-                        }}>Contact</button>
+                        <button onClick={this.about}
+                            style={{
+                                fontSize: "13px",
+                                fontFamily: "inherit",
+                                color: "#1a1245",
+                                fontWeight: "500",
+                                border: "None",
+                                backgroundColor: "transparent",
+                                boxSizing: "border-box",
+                                padding: "10px 15px",
+                                borderRadius: "50px",
+                                cursor: "pointer",
 
+
+                            }}>About</button>
+
+                        <button onClick={this.exp}
+                            style={{
+                                fontSize: "13px",
+                                fontFamily: "inherit",
+                                color: "#1a1245",
+                                fontWeight: "500",
+                                border: "None",
+                                backgroundColor: "transparent",
+                                boxSizing: "border-box",
+                                padding: "10px 15px",
+                                borderRadius: "50px",
+                                cursor: "pointer"
+                            }}>Experience</button>
+                        <button onClick={this.contact}
+                            style={{
+                                fontSize: "13px",
+                                fontFamily: "inherit",
+                                color: "#1a1245",
+                                fontWeight: "500",
+                                border: "None",
+                                backgroundColor: "transparent",
+                                boxSizing: "border-box",
+                                padding: "10px 15px",
+                                borderRadius: "50px",
+                                cursor: "pointer"
+                            }}>Contact</button>
+                        {this.state.redirect ? <Redirect to={this.state.redirect} /> : null}
 
                     </nav>
 
                 </div>
-                <div style={{ display: "flex", flexDirection: "column", gridColumn: "2", textAlign: "center" }}>
+                <div className="column" style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", textAlign: "center" }}>
                     <h1 style={{
                         textAlign: "center",
                         fontFamily: "Open Sans, sans-serif",
@@ -171,7 +195,7 @@ class Home extends Component {
                         fontWeight: "lighter",
                         // marginRight: "150px"
                     }}>Skills</h1>
-                    <div style={{ display: "flex", margin: "0 auto" }}>
+                    <div style={{ display: "flex", margin: "0 auto", flex: "50%" }}>
                         <div style={{ marginRight: "30px", display: "block" }}>
                             <h3 style={{
                                 display: "block",
@@ -209,7 +233,7 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div style={{ marginRight: "30px", display: "block" }}>
+                        <div style={{ marginRight: "30px", display: "block", flex: "50%" }}>
                             <h3 style={{
                                 display: "block",
                                 fontSize: "1.17em",
@@ -247,7 +271,7 @@ class Home extends Component {
                             </div>
                         </div>
 
-                        <div style={{ marginRight: "30px", display: "block" }}>
+                        <div style={{ marginRight: "30px", display: "block", flex: "50%" }}>
                             <h3 style={{
                                 display: "block",
                                 fontSize: "1.17em",
@@ -284,7 +308,7 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div style={{ marginRight: "30px", display: "block" }}>
+                        <div style={{ marginRight: "30px", display: "block", flex: "50%" }}>
                             <h3 style={{
                                 display: "block",
                                 fontSize: "1.17em",
