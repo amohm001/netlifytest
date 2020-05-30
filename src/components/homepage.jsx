@@ -64,7 +64,7 @@ class Home extends Component {
 
 
                         height: "200px",
-                        width: "350px",
+                        width: "40%",
                         alignItems: "center",
 
                     }} />
