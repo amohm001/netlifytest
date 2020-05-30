@@ -33,7 +33,7 @@ class Home extends Component {
 
     render() {
         return (
-            <div style={{ display: "block", width: "100%" }}>
+            <div>
 
                 <header >
 
@@ -61,11 +61,12 @@ class Home extends Component {
 
                 <div style={{ backgroundColor: "#4f6777", left: "30%" }}>
                     <img src={bigPic} style={{
-
-
+                        display: "block",
+                        maxWidth: "500px",
+                        margin: "auto",
                         height: "200px",
-                        width: "40%",
-                        alignItems: "center",
+
+
 
                     }} />
                 </div>
@@ -188,7 +189,15 @@ class Home extends Component {
                     </nav>
 
                 </div>
-                <div className="column" style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", textAlign: "center" }}>
+                <div className="column" style={{
+                    flexDirection: "column",
+                    flexWrap: "wrap",
+                    textAlign: "center",
+
+                    display: "block",
+                    maxWidth: "700px",
+                    margin: "auto",
+                }}>
                     <h1 style={{
                         textAlign: "center",
                         fontFamily: "Open Sans, sans-serif",
