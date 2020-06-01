@@ -38,9 +38,17 @@ class About extends Component {
                 <div>
                     <header >
 
-                        <nav>
+                        <nav style={{
+                            boxSizing: "border-box",
+                            minWidth: "100%",
+                            maxWidth: "5000px",
+                            margin: "auto",
+                            backgroundColor: "rgb(97, 107, 145)",
+                            position: "fixed",
+
+                        }}>
                             <div style={{
-                                backgroundColor: "white", height: "40px"
+                                backgroundColor: "white", height: "40px", paddingTop: "2px"
                             }}>
                                 < img src={logo} className="App-logo" alt="logo" style={{
                                     float: "left",
@@ -58,15 +66,12 @@ class About extends Component {
                                 }}>Amire Mohmed</h1>
 
                             </div>
-                        </nav>
 
-                    </header>
-                    <div style={{ backgroundColor: "rgb(10, 25, 47)", }}>
 
-                        <div>
+
 
                             <nav style={{
-                                backgroundColor: "#4CD5B7",
+                                backgroundColor: "rgb(204, 214, 246)",
                                 padding: "1em 0",
                                 width: "80%",
                                 display: "flex",
@@ -137,82 +142,87 @@ class About extends Component {
                                 {this.state.redirect ? <Redirect to={this.state.redirect} /> : null}
 
                             </nav>
-                        </div>
+                        </nav>
+                    </header>
 
+
+                    <div style={{
+
+                        display: "flex", alignItems: "center",
+                        maxWidth: "800px",
+                        margin: "auto",
+                        paddingTop: "180px"
+
+                    }}>
                         <div style={{
 
-                            display: "flex", alignItems: "center",
-                            maxWidth: "800px",
-                            margin: "auto",
+                            float: "left"
+
                         }}>
-                            <div style={{
+                            <img src={pic} style={{
+                                display: "block",
+                                // flex: "1 1",
+                                float: "left",
 
-                                float: "left"
+                                padding: "20px",
+                                height: "350px",
+                                maxWidth: "500px",
+                                minWidth: "200px",
+                                borderRadius: "50px",
+                                boxSizing: "border-box",
+                                textAlign: "center",
+                                paddingBottom: "20px",
+
+                            }} />
+                            <a href={resume} target="_blank" style={{
+                                display: "inline-block",
+                                color: "rgb(100, 255, 218)",
+                                backgroundColor: "transparent",
+                                fontSize: "14px",
+                                fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
+                                lineHeight: "1",
+                                cursor: "pointer",
+                                borderWidth: "1px",
+                                borderStyle: "solid",
+                                borderColor: "rgb(100, 255, 218)",
+                                borderImage: "initial",
+                                borderRadius: "3px",
+                                padding: "1.25rem 1.75rem",
+                                textDecoration: "none",
+
 
                             }}>
-                                <img src={pic} style={{
-                                    display: "block",
-                                    // flex: "1 1",
-                                    float: "left",
-
-                                    padding: "20px",
-                                    height: "350px",
-                                    maxWidth: "500px",
-                                    minWidth: "200px",
-                                    borderRadius: "13px",
-                                    boxSizing: "border-box",
-                                    textAlign: "center",
-                                    paddingBottom: "50px",
-
-                                }} />
-                            </div>
-                            <div style={{
-
-
-                            }}>
-                                <p style={{
-                                    display: "block",
-                                    color: "rgb(204, 214, 246)",
-
-                                    maxWidth: "700px",
-                                    margin: "auto",
-
-                                    paddingLeft: "10px",
-                                    paddingBottom: "50px",
-                                    // fontSize: "1.5vw",
-                                    fontSize: "calc(14px + (15 - 11) * ((100vw - 300px) / (1600 - 300)))",
-                                    fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
-
-                                }}>  Hey, hi! I am Amir, a web and software developer who enjoys solving community building, finance and education-related real-world problems.
-                                    Actively working to enhance the school atmosphere of my colleagues at SUNY Plattsburgh by building accessible and innovative software applications.
-                                    I like working with various technologies, be directly involved in the entire process of development, and work with talented individuals to produce outcomes that will have an adverse impact.
-                                    My ideas usually come from a problem I want to solve and I learn and improve my coding skills by working on and addressing the problem.
-                                    I also served as the vice president of Software Engineering Club since September 2019, an organization that builds web
-                            and software apps at SUNY Plattsburgh to address several problems.</p>
-                                <a href={resume} target="_blank" style={{
-                                    display: "inline-block",
-                                    color: "rgb(100, 255, 218)",
-                                    backgroundColor: "transparent",
-                                    fontSize: "14px",
-                                    fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
-                                    lineHeight: "1",
-                                    cursor: "pointer",
-                                    marginzTop: "50px",
-                                    borderWidth: "1px",
-                                    borderStyle: "solid",
-                                    borderColor: "rgb(100, 255, 218)",
-                                    borderImage: "initial",
-                                    borderRadius: "3px",
-                                    padding: "1.25rem 1.75rem",
-                                    textDecoration: "none",
-
-                                }}>
-                                    Resume
+                                Resume
                             </a>
-                            </div>
+                        </div>
+                        <div style={{
+
+
+                        }}>
+                            <p style={{
+                                display: "block",
+                                color: "rgb(240, 243, 255)",
+
+                                maxWidth: "700px",
+                                margin: "auto",
+                                padding: "10px",
+                                paddingLeft: "1px",
+                                paddingBottom: "50px",
+                                // fontSize: "1.5vw",
+                                fontSize: "calc(14px + (15 - 11) * ((100vw - 300px) / (1600 - 300)))",
+                                fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
+
+                            }}>  Hey, hi! I am Amir, a web and software developer who enjoys solving community building, finance and education-related real-world problems.
+                                Actively working to enhance the school atmosphere of my colleagues at SUNY Plattsburgh by building accessible and innovative software applications.
+                                I like working with various technologies, be directly involved in the entire process of development, and work with talented individuals to produce outcomes that will have an adverse impact.
+                                My ideas usually come from a problem I want to solve and I learn and improve my coding skills by working on and addressing the problem.
+                                I also served as the vice president of Software Engineering Club since September 2019, an organization that builds web
+                            and software apps at SUNY Plattsburgh to address several problems.</p>
 
                         </div>
+
                     </div>
+
 
                     <footer style={{
                         display: "grid",

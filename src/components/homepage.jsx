@@ -37,7 +37,15 @@ class Home extends Component {
 
                 <header >
 
-                    <nav>
+                    <nav style={{
+                        boxSizing: "border-box",
+                        minWidth: "100%",
+                        maxWidth: "5000px",
+                        margin: "auto",
+                        backgroundColor: "#fff",
+                        position: "fixed",
+
+                    }}>
                         <div>
                             <img src={logo} className="App-logo" alt="logo" style={{
                                 float: "left",
@@ -55,22 +63,94 @@ class Home extends Component {
                             }}>Amire Mohmed</h1>
 
                         </div>
-                    </nav>
 
+
+
+                        <nav style={{
+                            backgroundColor: "#4f6777",
+                            padding: "1em 0",
+                            width: "80%",
+                            display: "flex",
+                            justifyContent: "space-around",
+                            alignItems: "center",
+                            margin: "1.5em auto",
+                            boxSizing: "border-box",
+                            borderRadius: "100px"
+                        }}>
+                            <button style={{
+                                fontSize: "13px",
+                                fontFamily: "inherit",
+                                color: "#1a1245",
+                                fontWeight: "500",
+                                border: "None",
+                                backgroundColor: "#fff",
+                                boxSizing: "border-box",
+                                padding: "10px 15px",
+                                borderRadius: "50px",
+                                cursor: "pointer"
+                            }}>Home</button>
+                            <button onClick={this.about}
+                                style={{
+                                    fontSize: "13px",
+                                    fontFamily: "inherit",
+                                    color: "#1a1245",
+                                    fontWeight: "500",
+                                    border: "None",
+                                    backgroundColor: "transparent",
+                                    boxSizing: "border-box",
+                                    padding: "10px 15px",
+                                    borderRadius: "50px",
+                                    cursor: "pointer",
+
+
+                                }}>About</button>
+
+                            <button onClick={this.exp}
+                                style={{
+                                    fontSize: "13px",
+                                    fontFamily: "inherit",
+                                    color: "#1a1245",
+                                    fontWeight: "500",
+                                    border: "None",
+                                    backgroundColor: "transparent",
+                                    boxSizing: "border-box",
+                                    padding: "10px 15px",
+                                    borderRadius: "50px",
+                                    cursor: "pointer"
+                                }}>Experience</button>
+                            <button onClick={this.contact}
+                                style={{
+                                    fontSize: "13px",
+                                    fontFamily: "inherit",
+                                    color: "#1a1245",
+                                    fontWeight: "500",
+                                    border: "None",
+                                    backgroundColor: "transparent",
+                                    boxSizing: "border-box",
+                                    padding: "10px 15px",
+                                    borderRadius: "50px",
+                                    cursor: "pointer"
+                                }}>Contact</button>
+                            {this.state.redirect ? <Redirect to={this.state.redirect} /> : null}
+
+                        </nav>
+                    </nav>
                 </header>
 
-                <div style={{ backgroundColor: "#4f6777", left: "30%" }}>
+                <div style={{ backgroundColor: "#4f6777" }}>
                     <img src={bigPic} style={{
                         display: "block",
                         maxWidth: "500px",
                         margin: "auto",
                         height: "200px",
+                        paddingTop: "150px"
 
 
 
                     }} />
                 </div>
-                <div style={{ backgroundColor: "#C26868", height: "380px" }}>
+
+                <div style={{ backgroundColor: "#C26868", height: "270px" }}>
                     <div style={{ display: "flex", flexDirection: "column" }}>
                         <div style={{
                             color: "#fafafa", marginLeft: "70px",
@@ -119,74 +199,7 @@ class Home extends Component {
                         </nav>
                     </div>
 
-                    <nav style={{
-                        backgroundColor: "#ffeed8",
-                        padding: "1em 0",
-                        width: "80%",
-                        display: "flex",
-                        justifyContent: "space-around",
-                        alignItems: "center",
-                        margin: "2em auto",
-                        boxSizing: "border-box",
-                        borderRadius: "100px"
-                    }}>
-                        <button style={{
-                            fontSize: "13px",
-                            fontFamily: "inherit",
-                            color: "#1a1245",
-                            fontWeight: "500",
-                            border: "None",
-                            backgroundColor: "#fff",
-                            boxSizing: "border-box",
-                            padding: "10px 15px",
-                            borderRadius: "50px",
-                            cursor: "pointer"
-                        }}>Home</button>
-                        <button onClick={this.about}
-                            style={{
-                                fontSize: "13px",
-                                fontFamily: "inherit",
-                                color: "#1a1245",
-                                fontWeight: "500",
-                                border: "None",
-                                backgroundColor: "transparent",
-                                boxSizing: "border-box",
-                                padding: "10px 15px",
-                                borderRadius: "50px",
-                                cursor: "pointer",
 
-
-                            }}>About</button>
-
-                        <button onClick={this.exp}
-                            style={{
-                                fontSize: "13px",
-                                fontFamily: "inherit",
-                                color: "#1a1245",
-                                fontWeight: "500",
-                                border: "None",
-                                backgroundColor: "transparent",
-                                boxSizing: "border-box",
-                                padding: "10px 15px",
-                                borderRadius: "50px",
-                                cursor: "pointer"
-                            }}>Experience</button>
-                        <button onClick={this.contact}
-                            style={{
-                                fontSize: "13px",
-                                fontFamily: "inherit",
-                                color: "#1a1245",
-                                fontWeight: "500",
-                                border: "None",
-                                backgroundColor: "transparent",
-                                boxSizing: "border-box",
-                                padding: "10px 15px",
-                                borderRadius: "50px",
-                                cursor: "pointer"
-                            }}>Contact</button>
-                        {this.state.redirect ? <Redirect to={this.state.redirect} /> : null}
-
-                    </nav>
 
                 </div>
                 <div className="column" style={{
