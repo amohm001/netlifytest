@@ -37,12 +37,21 @@ class Experience extends Component {
                 <div>
                 <header >
 
-                    <nav style = {{boxSizing: "border-box",
+                    <nav className="sticky-top"
+                    style = {{boxSizing: "border-box",
                 minWidth:"100%",
                 maxWidth: "5000px",
                 margin:"auto",
                 backgroundColor:"rgb(97, 107, 145)",
                 position:"fixed",
+                top: "0px",
+                zIndex:"11",
+                transform:"translateY(0px)",
+                transition: "all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s",
+                pointerEvents:"auto !important",
+                userSelect:"auto !important",
+                counterReset: "item 0",
+                
                 
                 }}>
                         <div style = {{backgroundColor: "white", height: "40px", paddingTop: "2px"}}>
@@ -78,7 +87,7 @@ class Experience extends Component {
                     }}>
                         <button onClick={this.home}
                             style={{
-                                fontSize: "13px",
+                                fontSize: "20px",
                                 fontFamily: "inherit",
                                 color: "#1a1245",
                                 fontWeight: "500",
@@ -91,7 +100,7 @@ class Experience extends Component {
                             }}>Home</button>
                         <button onClick={this.about}
                             style={{
-                                fontSize: "13px",
+                                fontSize: "20px",
                                 fontFamily: "inherit",
                                 color: "#1a1245",
                                 fontWeight: "500",
@@ -121,7 +130,7 @@ class Experience extends Component {
                             }}>Experience</button>
                         <button onClick={this.contact}
                             style={{
-                                fontSize: "13px",
+                                fontSize: "20px",
                                 fontFamily: "inherit",
                                 color: "#1a1245",
                                 fontWeight: "500",
@@ -255,7 +264,71 @@ class Experience extends Component {
                             </h6>
                         
                     </h2>
+                    <h2>
+                        Relevant Coursework
+                        
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Fundamentals of Computer Programming
+                        
+                        
 
+
+
+
+Design for User Experience
+
+
+
+
+
+                        </h6>
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Data Structures
+                        </h6>
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Theory of Computation
+                        </h6>
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Design and Analysis of Algorithms
+                        </h6>
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Object-Oriented Programming
+                        </h6>
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Software Engineering
+                        </h6>
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Discrete Methods in Computer Science
+                        </h6>
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Computer Organization
+                        </h6>
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Computer Networks
+                        </h6>
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Computer Security
+                        </h6>
+                    
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Operating Systems
+                        </h6>
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                         System Adminstration
+                        </h6>
+                        </h2>
                 </div>
                 <footer style={{
                         display: "grid",

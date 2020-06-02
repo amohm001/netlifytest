@@ -58,7 +58,7 @@ class About extends Component {
 
                                 <h1 style={{
                                     fontFamily: "Montserrat, sans-serif",
-                                    // color: "rgb(204, 214, 246)",
+
                                     color: "#4f6777",
                                     fontSize: "20px",
 
@@ -85,7 +85,7 @@ class About extends Component {
                             }}>
                                 <button onClick={this.home}
                                     style={{
-                                        fontSize: "13px",
+                                        fontSize: "20px",
                                         fontFamily: "inherit",
                                         color: "#1a1245",
                                         fontWeight: "500",
@@ -115,7 +115,7 @@ class About extends Component {
 
                                 <button onClick={this.exp}
                                     style={{
-                                        fontSize: "13px",
+                                        fontSize: "20px",
                                         fontFamily: "inherit",
                                         color: "#1a1245",
                                         fontWeight: "500",
@@ -128,7 +128,7 @@ class About extends Component {
                                     }}>Experience</button>
                                 <button onClick={this.contact}
                                     style={{
-                                        fontSize: "13px",
+                                        fontSize: "20px",
                                         fontFamily: "inherit",
                                         color: "#1a1245",
                                         fontWeight: "500",

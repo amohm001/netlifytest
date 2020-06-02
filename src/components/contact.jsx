@@ -128,7 +128,7 @@ class Contact extends Component {
 
                     </nav>
                 </div>
-                This page is Under development. Will be available soon ;-)
+                This page is Under development. Will be available soon. <div>- Amir D Mohmed</div>
             </div>
 
         )
