@@ -91,7 +91,7 @@ class Home extends Component {
                             }}>Home</button>
                             <button onClick={this.about}
                                 style={{
-                                    fontSize: "20px",
+                                    fontSize: "13px",
                                     fontFamily: "inherit",
                                     color: "rgb(240, 243, 255)",
                                     fontWeight: "500",
@@ -107,7 +107,7 @@ class Home extends Component {
 
                             <button onClick={this.exp}
                                 style={{
-                                    fontSize: "20px",
+                                    fontSize: "13px",
                                     fontFamily: "inherit",
                                     color: "rgb(240, 243, 255)",
                                     fontWeight: "500",
@@ -120,7 +120,7 @@ class Home extends Component {
                                 }}>Experience</button>
                             <button onClick={this.contact}
                                 style={{
-                                    fontSize: "20px",
+                                    fontSize: "13px",
                                     fontFamily: "inherit",
                                     color: "rgb(240, 243, 255)",
                                     fontWeight: "500",
