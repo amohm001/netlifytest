@@ -180,20 +180,23 @@ class Home extends Component {
                             letterSpacing: "0.5emm",
                             fontSize: "13px",
                         }}> UI/UX Designer.</div>
-                        <nav style={{ display: "flex", justifyContent: "normal", width: "auto", marginLeft: "50px" }}>
-                            <a href="mailto: amirditamo@gmail.com">
+                        <nav style={{
+                            display: "flex", justifyContent: "normal", width: "auto", marginLeft: "50px",
+                            margin: "auto", textAlign: "left"
+                        }}>
+                            <a href="mailto: amirditamo@gmail.com" style={{ paddingRight: "20px" }}>
                                 <img src={gmail} />
                             </a>
-                            <a href="https://github.com/amohm001">
+                            <a href="https://github.com/amohm001" style={{ paddingRight: "20px" }}>
                                 <img src={github} />
                             </a>
-                            <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/">
+                            <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/" style={{ paddingRight: "20px" }}>
                                 <img src={linkedin} />
                             </a>
-                            <a href="https://www.instagram.com/amir.mohmedd/">
+                            <a href="https://www.instagram.com/amir.mohmedd/" style={{ paddingRight: "20px" }}>
                                 <img src={instagram} />
                             </a>
-                            <a href="https://twitter.com/Amir_Ditamo">
+                            <a href="https://twitter.com/Amir_Ditamo" >
                                 <img src={twitter} />
                             </a>
                         </nav>
@@ -208,7 +211,7 @@ class Home extends Component {
                     textAlign: "center",
 
                     display: "block",
-                    maxWidth: "700px",
+                    maxWidth: "500px",
                     margin: "auto",
                 }}>
                     <h1 style={{
