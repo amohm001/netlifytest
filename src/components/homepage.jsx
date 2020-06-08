@@ -42,11 +42,11 @@ class Home extends Component {
                         minWidth: "100%",
                         maxWidth: "5000px",
                         margin: "auto",
-                        backgroundColor: "#fff",
+                        backgroundColor: "rgb(181, 196, 245)",
                         position: "fixed",
 
                     }}>
-                        <div>
+                        <div style={{ backgroundColor: "white", height: "40px", paddingTop: "2px" }}>
                             <img src={logo} className="App-logo" alt="logo" style={{
                                 float: "left",
                                 height: "40px",
@@ -73,7 +73,7 @@ class Home extends Component {
                             display: "flex",
                             justifyContent: "space-around",
                             alignItems: "center",
-                            margin: "1.5em auto",
+                            margin: "0.7em auto",
                             boxSizing: "border-box",
                             borderRadius: "100px"
                         }}>
@@ -294,6 +294,14 @@ class Home extends Component {
                                     <img src={tri} style={{ height: "20px" }} />
                                     <p>AdobeXD</p>
                                 </div>
+                                <div style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    textAlign: "left"
+                                }}>
+                                    <img src={tri} style={{ height: "20px" }} />
+                                    <p>Node.js</p>
+                                </div>
                             </div>
                         </div>
 
@@ -314,7 +322,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>ReactJS</p>
+                                    <p>React</p>
                                 </div>
                                 <div style={{
                                     display: "flex",
@@ -352,7 +360,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>UI/UX Design</p>
+                                    <p>HTML & CSS</p>
                                 </div>
                                 <div style={{
                                     display: "flex",

@@ -81,7 +81,7 @@ class Experience extends Component {
                         display: "flex",
                         justifyContent: "space-around",
                         alignItems: "center",
-                        margin: "2em auto",
+                        margin: "0.7em auto",
                         boxSizing: "border-box",
                         borderRadius: "100px"
                     }}>

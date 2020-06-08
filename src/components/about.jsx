@@ -77,7 +77,7 @@ class About extends Component {
                                 display: "flex",
                                 justifyContent: "space-around",
                                 alignItems: "center",
-                                margin: "2em auto",
+                                margin: "0.8em auto",
                                 boxSizing: "border-box",
                                 borderRadius: "100px",
 
@@ -151,8 +151,8 @@ class About extends Component {
                         display: "flex", alignItems: "center",
                         maxWidth: "800px",
                         margin: "auto",
-                        paddingTop: "180px"
-
+                        paddingTop: "180px",
+                        textAlign: "center"
                     }}>
                         <div style={{
 
@@ -195,10 +195,7 @@ class About extends Component {
                                 Resume
                             </a>
                         </div>
-                        <div style={{
-
-
-                        }}>
+                        <div>
                             <p style={{
                                 display: "block",
                                 color: "rgb(240, 243, 255)",
@@ -220,7 +217,6 @@ class About extends Component {
                             and software apps at SUNY Plattsburgh to address several problems.</p>
 
                         </div>
-
                     </div>
 
 

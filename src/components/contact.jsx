@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable no-unused-vars */
 /* eslint-disable import/first */
 import React, { Component } from "react";
@@ -31,7 +33,7 @@ class Contact extends Component {
 
     render() {
         return (
-            <div>
+            <div style={{ backgroundColor: "rgb(10, 25, 47)", backgroundSize: "cover" }}>
                 <header >
 
                     <nav
@@ -70,13 +72,13 @@ class Contact extends Component {
                         <div>
 
                             <nav style={{
-                                backgroundColor: "#B9ABB7",
+                                backgroundColor: "rgb(204, 214, 246)",
                                 padding: "1em 0",
                                 width: "80%",
                                 display: "flex",
                                 justifyContent: "space-around",
                                 alignItems: "center",
-                                margin: "2em auto",
+                                margin: "0.7em auto",
                                 boxSizing: "border-box",
                                 borderRadius: "100px"
                             }}>
@@ -148,23 +150,99 @@ class Contact extends Component {
                 This page is Under development. Will be available soon. <div>- Amir D Mohmed</div>
                 <div style=
                     {{
-                        maxWidth: "600px",
+                        maxWidth: "800px",
                         margin: "auto",
                         padding: "20px",
                         paddingTop: "180px",
                         fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                         letterSpacing: "0.5emm",
-                        fontSize: "calc(1vw + 0.5vh + .5vmin)",
-
-
+                        fontSize: "calc(1vw + 0.5vh + 1.2vmin)",
+                        textAlign: "center",
+                        color: "rgb(240, 243, 255)"
                     }}>
-                    Currently, I am looking for a software engineer intership for this summer (2020).
-                    However, I always have time to work on other projects so,
-                    if you have any project, freelance job or ideas you would like to
-                    share with me please don't hesitate to reach out to me,
-                    I would be more than happy to help you and see what we can do together!
+                    <div>
+
+                        I am currently looking for an internship in software engineering this summer (2020).
+                        Anyway, I usually do have time to work on other projects.
+                        So, if you've got any projects, assignments, or suggestions you would
+                        like to discuss with me, please feel free to contact me.
+                        I'd be glad to assist you  and see what we can do together!
+                    </div>
+                    <a href="mailto:amirditamo@gmail.com" target="_blank" style={{
+                        display: "inline-block",
+                        color: "rgb(100, 255, 218)",
+                        backgroundColor: "transparent",
+                        fontSize: "14px",
+                        fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
+                        lineHeight: "1",
+                        cursor: "pointer",
+                        borderWidth: "1px",
+                        borderStyle: "solid",
+                        borderColor: "rgb(100, 255, 218)",
+                        borderImage: "initial",
+                        borderRadius: "3px",
+                        padding: "1.25rem 1.75rem",
+                        textDecoration: "none",
+                        margin: "2em auto"
+                    }}>
+                        Contact me
+                            </a>
                 </div>
-            </div>
+                <footer style={{
+                    display: "grid",
+                    gridTemplateColumns: "minmax(10vw,1fr) minmax(0,90rem) minmax(10vw,1fr)",
+                    marginTop: "2em"
+                }}>
+                    <div style={{ flexDirection: "column", display: "flex", alignItems: "center", margin: "2em 0", justifyContent: "space-between", gridColumn: "2" }}>
+                        <h1 style={{
+                            color: "#4f6777",
+                            display: "block",
+                            fontSize: "2em",
+                            marginBlockStart: "0.67em",
+                            marginBlockEnd: "0.67em",
+                            marginInlineStart: "0px",
+                            marginInlineEnd: "0px",
+                            fontWeight: "bold"
+                        }}>Amir.</h1>
+                        <p style={{
+                            margin: "20px 0",
+                            display: "flex",
+                            alignItems: "center",
+                            fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
+                            fontSize: "15px",
+                            marginBlockStart: "1em",
+                            marginBlockEnd: "1em",
+                            marginInlineStart: "0px",
+                            marginInlineEnd: "0px",
+                            color: "rgb(204, 214, 246)"
+                        }}>
+                            Designed & Built by Amire Mohmed
+                        </p>
+
+                        <nav style={{ display: "flex", justifyContent: "space-between", width: "auto" }}>
+
+                            <a href="mailto: amirditamo@gmail.com" >
+                                <img src={gmail} />
+                            </a>
+                            <a href="https://github.com/amohm001"  >
+                                <img src={github} />
+                            </a>
+                            <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/"  >
+                                <img src={linkedin} />
+                            </a>
+                            <a href="https://www.instagram.com/amir.mohmedd/"  >
+                                <img src={instagram} />
+                            </a>
+                            <a href="https://twitter.com/Amir_Ditamo"  >
+                                <img src={twitter} />
+                            </a>
+                        </nav>
+
+                    </div>
+
+                </footer>
+
+            </div >
 
         )
     }
