@@ -154,7 +154,7 @@ class Experience extends Component {
                     maxWidth: "600px",
                     margin: "auto",
                     padding: "20px",
-                    paddingTop:"180px",
+                    paddingTop:"140px",
                     fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                     letterSpacing: "0.5emm",
                     color: "rgb(240, 243, 255)"

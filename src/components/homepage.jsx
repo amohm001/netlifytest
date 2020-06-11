@@ -143,7 +143,7 @@ class Home extends Component {
                         maxWidth: "500px",
                         margin: "auto",
                         height: "200px",
-                        paddingTop: "150px"
+                        paddingTop: "120px"
 
 
 
@@ -179,7 +179,7 @@ class Home extends Component {
                             fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                             letterSpacing: "0.5emm",
                             fontSize: "13px",
-                        }}> UI/UX Designer.</div>
+                        }}> Frontend UI Designer.</div>
                         <nav style={{
                             display: "flex", justifyContent: "normal", width: "auto", marginLeft: "50px",
                             margin: "auto", textAlign: "left"

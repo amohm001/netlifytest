@@ -153,7 +153,7 @@ class Contact extends Component {
                         maxWidth: "800px",
                         margin: "auto",
                         padding: "20px",
-                        paddingTop: "180px",
+                        paddingTop: "130px",
                         fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                         letterSpacing: "0.5emm",
                         fontSize: "calc(1vw + 0.5vh + 1.2vmin)",

@@ -151,7 +151,7 @@ class About extends Component {
                         display: "flex", alignItems: "center",
                         maxWidth: "800px",
                         margin: "auto",
-                        paddingTop: "180px",
+                        paddingTop: "140px",
                         textAlign: "center"
                     }}>
                         <div style={{
