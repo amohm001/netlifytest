@@ -206,11 +206,12 @@ class Home extends Component {
 
                 </div>
                 <div className="column" style={{
+                    display: "flex",
                     flexDirection: "column",
-                    flexWrap: "wrap",
-                    textAlign: "center",
+                    gridColumn: "2",
+                    // flexWrap: "wrap",
+                    // textAlign: "center",
 
-                    display: "block",
                     maxWidth: "500px",
                     margin: "auto",
                 }}>
