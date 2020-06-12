@@ -206,7 +206,7 @@ class Home extends Component {
 
                 </div>
                 <div className="column" style={{
-                    display: "flex",
+                    display: "block",
                     flexDirection: "column",
                     gridColumn: "2",
                     // flexWrap: "wrap",
