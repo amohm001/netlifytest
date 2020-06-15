@@ -55,15 +55,15 @@ class Experience extends Component {
                 
                 }}>
                         <div style = {{backgroundColor: "white", height: "40px", paddingTop: "2px"}}>
-                            <img src={logo} className="App-logo" alt="logo" style={{
+                            {/* <img src={logo} className="App-logo" alt="logo" style={{
                                 float: "left",
                                 height: "40px",
                                 
-                            }} />
+                            }} /> */}
 
                             <h1 style={{
                                 fontFamily: "Montserrat, sans-serif",
-                                // color: "rgb(204, 214, 246)",
+                                margin: "1em 1em",
                                 color: "#4f6777",
                                 fontSize: "20px",
 

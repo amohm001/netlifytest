@@ -50,15 +50,15 @@ class About extends Component {
                             <div style={{
                                 backgroundColor: "white", height: "40px", paddingTop: "2px"
                             }}>
-                                < img src={logo} className="App-logo" alt="logo" style={{
+                                {/* < img src={logo} className="App-logo" alt="logo" style={{
                                     float: "left",
                                     height: "40px",
 
-                                }} />
+                                }} /> */}
 
                                 <h1 style={{
                                     fontFamily: "Montserrat, sans-serif",
-
+                                    margin: "1em 1em",
                                     color: "#4f6777",
                                     fontSize: "20px",
 
@@ -148,18 +148,14 @@ class About extends Component {
 
                     <div style={{
 
-                        display: "flex", alignItems: "center",
+                        // display: "flex", alignItems: "center",
                         maxWidth: "800px",
                         margin: "auto",
                         paddingTop: "140px",
                         textAlign: "center"
                     }}>
-                        <div style={{
 
-                            float: "left"
-
-                        }}>
-                            <img src={pic} style={{
+                        {/* <img src={pic} style={{
                                 display: "block",
                                 // flex: "1 1",
                                 float: "left",
@@ -173,9 +169,33 @@ class About extends Component {
                                 textAlign: "center",
                                 paddingBottom: "20px",
 
-                            }} />
+                            }} /> */}
+
+                        <div>
+                            <p style={{
+                                // display: "block",
+                                color: "rgb(240, 243, 255)",
+                                maxWidth: "700px",
+                                margin: "auto",
+                                padding: "10px",
+                                paddingLeft: "1px",
+                                paddingBottom: "50px",
+                                // fontSize: "1.5vw",
+                                fontSize: "calc(14px + (15 - 11) * ((100vw - 300px) / (1600 - 300)))",
+                                fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
+                                lineHeight: "40px"
+
+                            }}>  Hey, hi! I am Amir, a web and software developer who enjoys solving community building, finance and education-related real-world problems.
+                                Actively working to enhance the school atmosphere of my colleagues at SUNY Plattsburgh by building accessible and innovative software applications.
+                                I like working with various technologies, be directly involved in the entire process of development, and work with talented individuals to produce outcomes that will have an adverse impact.
+                                My ideas usually come from a problem I want to solve and I learn and improve my coding skills by working on and addressing the problem.
+                                I also served as the vice president of Software Engineering Club since September 2019, an organization that builds web
+                            and software apps at SUNY Plattsburgh to address several problems.</p>
+
+                        </div>
+                        <div >
                             <a href={resume} target="_blank" style={{
-                                display: "inline-block",
+                                // display: "block",
                                 color: "rgb(100, 255, 218)",
                                 backgroundColor: "transparent",
                                 fontSize: "14px",
@@ -194,27 +214,6 @@ class About extends Component {
                             }}>
                                 Resume
                             </a>
-                        </div>
-                        <div>
-                            <p style={{
-                                display: "block",
-                                color: "rgb(240, 243, 255)",
-
-                                maxWidth: "700px",
-                                margin: "auto",
-                                padding: "10px",
-                                paddingLeft: "1px",
-                                paddingBottom: "50px",
-                                // fontSize: "1.5vw",
-                                fontSize: "calc(14px + (15 - 11) * ((100vw - 300px) / (1600 - 300)))",
-                                fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
-
-                            }}>  Hey, hi! I am Amir, a web and software developer who enjoys solving community building, finance and education-related real-world problems.
-                                Actively working to enhance the school atmosphere of my colleagues at SUNY Plattsburgh by building accessible and innovative software applications.
-                                I like working with various technologies, be directly involved in the entire process of development, and work with talented individuals to produce outcomes that will have an adverse impact.
-                                My ideas usually come from a problem I want to solve and I learn and improve my coding skills by working on and addressing the problem.
-                                I also served as the vice president of Software Engineering Club since September 2019, an organization that builds web
-                            and software apps at SUNY Plattsburgh to address several problems.</p>
 
                         </div>
                     </div>

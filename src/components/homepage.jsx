@@ -13,7 +13,7 @@ import twitter from "./icons8-twitter-48.png";
 import instagram from "./icons8-instagram-48.png";
 import tri from "./icons8-triangle-40.png";
 import { findByLabelText } from "@testing-library/react";
-
+import resume from "./resumeAmire.pdf";
 
 class Home extends Component {
     state = {
@@ -47,20 +47,21 @@ class Home extends Component {
 
                     }}>
                         <div style={{ backgroundColor: "white", height: "40px", paddingTop: "2px" }}>
-                            <img src={logo} className="App-logo" alt="logo" style={{
+                            {/* <img src={logo} className="App-logo" alt="logo" style={{
                                 float: "left",
                                 height: "40px",
 
-                            }} />
+                            }} /> */}
 
                             <h1 style={{
                                 fontFamily: "Montserrat, sans-serif",
-                                // color: "rgb(204, 214, 246)",
+                                margin: "1em 1em",
                                 color: "#4f6777",
                                 fontSize: "20px",
 
 
                             }}>Amire Mohmed</h1>
+
 
                         </div>
 
@@ -150,7 +151,7 @@ class Home extends Component {
                     }} />
                 </div>
 
-                <div style={{ backgroundColor: "#C26868", height: "270px" }}>
+                <div style={{ backgroundColor: "#C26868", height: "320px" }}>
                     <div style={{ display: "flex", flexDirection: "column" }}>
                         <div style={{
                             color: "#fafafa", marginLeft: "70px",
@@ -175,11 +176,33 @@ class Home extends Component {
                         <div style={{
                             color: "#fafafa", marginLeft: "70px",
                             fontWeight: "700",
-                            paddingBottom: "40px",
+                            paddingBottom: "10px",
                             fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                             letterSpacing: "0.5emm",
                             fontSize: "13px",
                         }}> Frontend UI Designer.</div>
+                        <a href={resume} style={{
+                            width: "50px",
+                            margin: "1em 5em",
+                            display: "inline-block", color: "white",
+                            // color: "rgb(100, 255, 218)",
+                            backgroundColor: "transparent",
+                            fontSize: "14px",
+                            fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
+                            lineHeight: "1",
+                            cursor: "pointer",
+                            borderWidth: "1px",
+                            borderStyle: "solid",
+                            borderColor: "white",
+                            borderImage: "initial",
+                            borderRadius: "3px",
+                            padding: "1.25rem 1.75rem",
+                            textDecoration: "none",
+
+
+                        }}>
+                            Resume
+                            </a>
                         <nav style={{
                             display: "flex", justifyContent: "normal", width: "auto", marginLeft: "50px",
                             margin: "auto", textAlign: "left"
