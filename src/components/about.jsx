@@ -12,7 +12,7 @@ import instagram from "./icons8-instagram-48.png";
 import tri from "./icons8-triangle-40.png";
 import logo from './logo.svg';
 import pic from "./IMG-1119.jpg";
-import resume from "./resumeAmire.pdf";
+import resume from "./AmireResume.pdf";
 
 class About extends Component {
     state = {
