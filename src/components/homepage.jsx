@@ -138,10 +138,14 @@ class Home extends Component {
                     </nav>
                 </header>
 
-                <div style={{ backgroundColor: "#4f6777" }}>
+                <div style={{
+                    backgroundColor: "#4f6777",
+                    minWidth: "100%",
+                    maxWidth: "5000px",
+                }}>
                     <img src={bigPic} style={{
                         display: "block",
-                        maxWidth: "500px",
+
                         margin: "auto",
                         height: "200px",
                         paddingTop: "120px"
@@ -151,7 +155,12 @@ class Home extends Component {
                     }} />
                 </div>
 
-                <div style={{ backgroundColor: "#C26868", height: "320px" }}>
+                <div style={{
+                    backgroundColor: "#C26868",
+                    height: "320px",
+                    minWidth: "100%",
+                    maxWidth: "5000px",
+                }}>
                     <div style={{ display: "flex", flexDirection: "column" }}>
                         <div style={{
                             color: "#fafafa", marginLeft: "70px",
