@@ -140,8 +140,7 @@ class Home extends Component {
 
                 <div style={{
                     backgroundColor: "#4f6777",
-                    minWidth: "100%",
-                    maxWidth: "5000px",
+                    width: "100%"
                 }}>
                     <img src={bigPic} style={{
                         display: "block",
@@ -158,8 +157,7 @@ class Home extends Component {
                 <div style={{
                     backgroundColor: "#C26868",
                     height: "320px",
-                    minWidth: "100%",
-                    maxWidth: "5000px",
+                    width: "99.8%"
                 }}>
                     <div style={{ display: "flex", flexDirection: "column" }}>
                         <div style={{
