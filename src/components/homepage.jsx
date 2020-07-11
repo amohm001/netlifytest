@@ -42,7 +42,7 @@ class Home extends Component {
                         minWidth: "100%",
                         maxWidth: "5000px",
                         margin: "auto",
-                        backgroundColor: "rgb(181, 196, 245)",
+                        backgroundColor: "#E2E2E2",
                         position: "fixed",
 
                     }}>

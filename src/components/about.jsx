@@ -155,21 +155,21 @@ class About extends Component {
                         textAlign: "center"
                     }}>
 
-                        {/* <img src={pic} style={{
-                                display: "block",
-                                // flex: "1 1",
-                                float: "left",
+                        <img src={pic} style={{
+                            display: "block",
+                            // flex: "1 1",
+                            float: "left",
 
-                                padding: "20px",
-                                height: "350px",
-                                maxWidth: "500px",
-                                minWidth: "200px",
-                                borderRadius: "50px",
-                                boxSizing: "border-box",
-                                textAlign: "center",
-                                paddingBottom: "20px",
+                            padding: "20px",
+                            height: "350px",
+                            maxWidth: "500px",
+                            minWidth: "200px",
+                            borderRadius: "50px",
+                            boxSizing: "border-box",
+                            textAlign: "center",
+                            paddingBottom: "20px",
 
-                            }} /> */}
+                        }} />
 
                         <div>
                             <p style={{
