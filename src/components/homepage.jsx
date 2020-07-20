@@ -290,7 +290,7 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div style={{ marginRight: "30px", display: "block", flex: "50%" }}>
+                        <div style={{ display: "block", flex: "50%", paddingLeft: "80px" }}>
                             <h3 style={{
                                 display: "block",
                                 fontSize: "1.17em",
@@ -336,6 +336,83 @@ class Home extends Component {
                             </div>
                         </div>
 
+                        {/* <div style={{ marginRight: "30px", display: "block", flex: "50%" }}>
+                            <h3 style={{
+                                display: "block",
+                                fontSize: "1.17em",
+                                marginBlockStart: "1em",
+                                marginBlockEnd: "1em",
+                                marginInlineStart: "0px",
+                                marginInlineEnd: "0px",
+                                fontWeight: "bold"
+                            }}> Frameworks </h3>
+                            <div style={{ display: "block" }}>
+                                <div style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    textAlign: "left"
+                                }}>
+                                    <img src={tri} style={{ height: "20px" }} />
+                                    <p>React</p>
+                                </div>
+                                <div style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    textAlign: "left"
+                                }}>
+                                    <img src={tri} style={{ height: "20px" }} />
+                                    <p>Flutter</p>
+                                </div>
+                                <div style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    textAlign: "left"
+                                }}>
+                                    <img src={tri} style={{ height: "20px" }} />
+                                    <p>Firebase</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{ marginRight: "30px", display: "block", flex: "50%" }}>
+                            <h3 style={{
+                                display: "block",
+                                fontSize: "1.17em",
+                                marginBlockStart: "1em",
+                                marginBlockEnd: "1em",
+                                marginInlineStart: "0px",
+                                marginInlineEnd: "0px",
+                                fontWeight: "bold",
+                                // marginRight: "150px"
+                            }}> Others </h3>
+                            <div style={{ display: "block" }}>
+                                <div style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    textAlign: "left"
+                                }}>
+                                    <img src={tri} style={{ height: "20px" }} />
+                                    <p>HTML & CSS</p>
+                                </div>
+                                <div style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    textAlign: "left"
+                                }}>
+                                    <img src={tri} style={{ height: "20px" }} />
+                                    <p>Algorithms and Design Patterns</p>
+                                </div>
+                                <div style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    textAlign: "left"
+                                }}>
+                                    <img src={tri} style={{ height: "20px" }} />
+                                    <p>Scripting</p>
+                                </div>
+                            </div>
+                        </div> */}
+                    </div>
+                    <div style={{ display: "flex", margin: "0 auto", flex: "50%" }}>
                         <div style={{ marginRight: "30px", display: "block", flex: "50%" }}>
                             <h3 style={{
                                 display: "block",
