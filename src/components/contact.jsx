@@ -203,7 +203,7 @@ class Contact extends Component {
                             marginInlineStart: "0px",
                             marginInlineEnd: "0px",
                             fontWeight: "bold"
-                        }}>Amir.</h1>
+                        }}>Amire.</h1>
                         <p style={{
                             margin: "20px 0",
                             display: "flex",

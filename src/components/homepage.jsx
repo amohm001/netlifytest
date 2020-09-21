@@ -171,7 +171,7 @@ class Home extends Component {
                         <div style={{
                             paddingTop: "3px", marginLeft: "70px", fontSize: "45px", color: "#fafafa", fontWeight: "700",
                             fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace", letterSpacing: "0.5emm",
-                        }}>Amir.</div>
+                        }}>Amire.</div>
                         <h2 style={{
                             color: "#fafafa", marginLeft: "70px",
                             fontWeight: "700",
@@ -506,7 +506,7 @@ class Home extends Component {
                             marginInlineStart: "0px",
                             marginInlineEnd: "0px",
                             fontWeight: "bold"
-                        }}>Amir.</h1>
+                        }}>Amire.</h1>
                         <p style={{
                             margin: "20px 0",
                             display: "flex",
