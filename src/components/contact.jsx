@@ -162,7 +162,7 @@ class Contact extends Component {
                     }}>
                     <div>
 
-                        I am currently looking for an internship in software engineering this summer (2020).
+                        I have recently accepted an offer from Cerner Corporation for the role of Software Engineer.
                         Anyway, I usually do have time to work on other projects.
                         So, if you've got any projects, assignments, or suggestions you would
                         like to discuss with me, please feel free to contact me.
