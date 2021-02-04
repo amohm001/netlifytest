@@ -13,7 +13,7 @@ import twitter from "./icons8-twitter-48.png";
 import instagram from "./icons8-instagram-48.png";
 import tri from "./icons8-triangle-40.png";
 import { findByLabelText } from "@testing-library/react";
-import resume from "./AmireResume.pdf";
+import resume from "./AmirResume.pdf";
 
 class Home extends Component {
     state = {
@@ -60,7 +60,7 @@ class Home extends Component {
                                 fontSize: "20px",
 
 
-                            }}>Amire Mohmed</h1>
+                            }}>Amir Mohmed</h1>
 
 
                         </div>
@@ -171,7 +171,7 @@ class Home extends Component {
                         <div style={{
                             paddingTop: "3px", marginLeft: "70px", fontSize: "45px", color: "#fafafa", fontWeight: "700",
                             fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace", letterSpacing: "0.5emm",
-                        }}>Amire.</div>
+                        }}>Amir.</div>
                         <h2 style={{
                             color: "#fafafa", marginLeft: "70px",
                             fontWeight: "700",
@@ -220,7 +220,7 @@ class Home extends Component {
                             <a href="https://github.com/amohm001" style={{ paddingRight: "20px" }}>
                                 <img src={github} />
                             </a>
-                            <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/" style={{ paddingRight: "20px" }}>
+                            <a href="https://www.linkedin.com/in/Amir-mohmed-9b769217b/" style={{ paddingRight: "20px" }}>
                                 <img src={linkedin} />
                             </a>
                             <a href="https://www.instagram.com/amir.mohmedd/" style={{ paddingRight: "20px" }}>
@@ -506,7 +506,7 @@ class Home extends Component {
                             marginInlineStart: "0px",
                             marginInlineEnd: "0px",
                             fontWeight: "bold"
-                        }}>Amire.</h1>
+                        }}>Amir.</h1>
                         <p style={{
                             margin: "20px 0",
                             display: "flex",
@@ -518,7 +518,7 @@ class Home extends Component {
                             marginInlineStart: "0px",
                             marginInlineEnd: "0px",
                         }}>
-                            Designed & Built by Amire Mohmed
+                            Designed & Built by Amir Mohmed
                         </p>
 
                         <nav style={{ display: "flex", justifyContent: "space-between", width: "auto" }}>
@@ -529,7 +529,7 @@ class Home extends Component {
                             <a href="https://github.com/amohm001"  >
                                 <img src={github} />
                             </a>
-                            <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/"  >
+                            <a href="https://www.linkedin.com/in/Amir-mohmed-9b769217b/"  >
                                 <img src={linkedin} />
                             </a>
                             <a href="https://www.instagram.com/amir.mohmedd/"  >

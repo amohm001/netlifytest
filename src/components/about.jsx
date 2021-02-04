@@ -12,7 +12,7 @@ import instagram from "./icons8-instagram-48.png";
 import tri from "./icons8-triangle-40.png";
 import logo from './logo.svg';
 import pic from "./IMG-1119.jpg";
-import resume from "./AmireResume.pdf";
+import resume from "./AmirResume.pdf";
 
 class About extends Component {
     state = {
@@ -63,7 +63,7 @@ class About extends Component {
                                     fontSize: "20px",
 
 
-                                }}>Amire Mohmed</h1>
+                                }}>Amir Mohmed</h1>
 
                             </div>
 
@@ -185,7 +185,7 @@ class About extends Component {
                                 fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                                 lineHeight: "40px"
 
-                            }}>  Hey, hi! I am Amire, a web and software developer who enjoys solving real-world problems using technology.
+                            }}>  Hey, hi! I am Amir, a web and software developer who enjoys solving real-world problems using technology.
                                 I have recently accepted an offer to join Cerner Corporation for the role of Software Engineer.
                                 Actively working to enhance the school atmosphere of my colleagues at SUNY Plattsburgh by building accessible and innovative software applications.
                                 I like working with various technologies, be directly involved in the entire process of development, and work with talented individuals to produce outcomes that will have an adverse impact.
@@ -234,7 +234,7 @@ class About extends Component {
                                 marginInlineStart: "0px",
                                 marginInlineEnd: "0px",
                                 fontWeight: "bold"
-                            }}>Amire.</h1>
+                            }}>Amir.</h1>
                             <p style={{
                                 margin: "20px 0",
                                 display: "flex",
@@ -247,7 +247,7 @@ class About extends Component {
                                 marginInlineEnd: "0px",
                                 color: "rgb(204, 214, 246)"
                             }}>
-                                Designed & Built by Amire Mohmed
+                                Designed & Built by Amir Mohmed
                         </p>
 
                             <nav style={{ display: "flex", justifyContent: "space-between", width: "auto" }}>
@@ -258,7 +258,7 @@ class About extends Component {
                                 <a href="https://github.com/amohm001"  >
                                     <img src={github} />
                                 </a>
-                                <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/"  >
+                                <a href="https://www.linkedin.com/in/Amir-mohmed-9b769217b/"  >
                                     <img src={linkedin} />
                                 </a>
                                 <a href="https://www.instagram.com/amir.mohmedd/"  >

@@ -66,7 +66,7 @@ class Contact extends Component {
                                 fontSize: "20px",
 
 
-                            }}>Amire Mohmed</h1>
+                            }}>Amir Mohmed</h1>
 
                         </div>
                         <div>
@@ -203,7 +203,7 @@ class Contact extends Component {
                             marginInlineStart: "0px",
                             marginInlineEnd: "0px",
                             fontWeight: "bold"
-                        }}>Amire.</h1>
+                        }}>Amir.</h1>
                         <p style={{
                             margin: "20px 0",
                             display: "flex",
@@ -216,7 +216,7 @@ class Contact extends Component {
                             marginInlineEnd: "0px",
                             color: "rgb(204, 214, 246)"
                         }}>
-                            Designed & Built by Amire Mohmed
+                            Designed & Built by Amir Mohmed
                         </p>
 
                         <nav style={{ display: "flex", justifyContent: "space-between", width: "auto" }}>
@@ -227,7 +227,7 @@ class Contact extends Component {
                             <a href="https://github.com/amohm001"  >
                                 <img src={github} />
                             </a>
-                            <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/"  >
+                            <a href="https://www.linkedin.com/in/Amir-mohmed-9b769217b/"  >
                                 <img src={linkedin} />
                             </a>
                             <a href="https://www.instagram.com/amir.mohmedd/"  >
