@@ -1,2 +1,2 @@
 console.log("Amir");
-return (5);
+return (100);
