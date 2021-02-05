@@ -13,7 +13,7 @@ import twitter from "./icons8-twitter-48.png";
 import instagram from "./icons8-instagram-48.png";
 import tri from "./icons8-triangle-40.png";
 import { findByLabelText } from "@testing-library/react";
-import resume from "./AmirResume.pdf";
+import resume from "./AmireResume.pdf";
 
 class Home extends Component {
     state = {
