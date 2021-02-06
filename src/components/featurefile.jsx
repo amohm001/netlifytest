@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 console.log("Amir");
+var fir = 5;
+const sec = 7;
+console.log(fir + sec);
+// console.log(fir);
+// console.log(sec);
 return (100);
-=======
-console.log("Amiri");
-return (21);
->>>>>>> working on merge
