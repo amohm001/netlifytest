@@ -4,4 +4,7 @@ const sec = 7;
 console.log(fir + sec);
 console.log(fir);
 console.log(sec);
+console.log(fir - sec);
+console.log(fir / sec);
+console.log(fir + fir);
 return (100);
