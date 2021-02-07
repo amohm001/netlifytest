@@ -60,7 +60,7 @@ class Home extends Component {
                                 fontSize: "20px",
 
 
-                            }}>Amir Mohmed</h1>
+                            }}>Amir D Mohmed</h1>
 
 
                         </div>
@@ -518,7 +518,7 @@ class Home extends Component {
                             marginInlineStart: "0px",
                             marginInlineEnd: "0px",
                         }}>
-                            Designed & Built by Amir Mohmed
+                            Designed & Built by Amir D Mohmed
                         </p>
 
                         <nav style={{ display: "flex", justifyContent: "space-between", width: "auto" }}>

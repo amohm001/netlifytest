@@ -68,7 +68,7 @@ class Experience extends Component {
                                 fontSize: "20px",
 
 
-                            }}>Amir Mohmed</h1>
+                            }}>Amir D Mohmed</h1>
 
                         </div>
                    
@@ -358,7 +358,7 @@ Design for User Experience
                                 marginInlineEnd: "0px",
                                 color: "rgb(204, 214, 246)"
                             }}>
-                                Designed & Built by Amir Mohmed
+                                Designed & Built by Amir D Mohmed
                         </p>
 
                             <nav style={{ display: "flex", justifyContent: "space-between", width: "auto" }}>
