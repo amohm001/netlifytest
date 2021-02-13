@@ -104,7 +104,7 @@ class Home extends Component {
                                     cursor: "pointer",
 
 
-                                }}>About</button>
+                                }}>ABOUT</button>
 
                             <button onClick={this.exp}
                                 style={{
@@ -118,7 +118,7 @@ class Home extends Component {
                                     padding: "10px 15px",
                                     borderRadius: "50px",
                                     cursor: "pointer"
-                                }}>Experience</button>
+                                }}>EXPERIENCE</button>
                             <button onClick={this.contact}
                                 style={{
                                     fontSize: "13px",
@@ -131,7 +131,7 @@ class Home extends Component {
                                     padding: "10px 15px",
                                     borderRadius: "50px",
                                     cursor: "pointer"
-                                }}>Contact</button>
+                                }}>CONTACT</button>
                             {this.state.redirect ? <Redirect to={this.state.redirect} /> : null}
 
                         </nav>
