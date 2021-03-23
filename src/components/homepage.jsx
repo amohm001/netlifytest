@@ -286,7 +286,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>Perl</p>
+                                    <p>Java</p>
                                 </div>
                             </div>
                         </div>
