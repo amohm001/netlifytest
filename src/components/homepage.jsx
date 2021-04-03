@@ -270,7 +270,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>Python</p>
+                                    <p>Java</p>
                                 </div>
                                 <div style={{
                                     display: "flex",
@@ -286,7 +286,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>Java</p>
+                                    <p>Python</p>
                                 </div>
                             </div>
                         </div>
@@ -307,7 +307,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>Terminal</p>
+                                    <p>Jira</p>
                                 </div>
                                 <div style={{
                                     display: "flex",
@@ -331,7 +331,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>Node.js</p>
+                                    <p>Jenkins</p>
                                 </div>
                             </div>
                         </div>
@@ -430,7 +430,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>React</p>
+                                    <p>React JS</p>
                                 </div>
                                 <div style={{
                                     display: "flex",
@@ -438,7 +438,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>Flutter</p>
+                                    <p>Maven and Springboot</p>
                                 </div>
                                 <div style={{
                                     display: "flex",
@@ -446,7 +446,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>Firebase</p>
+                                    <p>Node.js</p>
                                 </div>
                             </div>
                         </div>
@@ -468,7 +468,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>HTML & CSS</p>
+                                    <p>Object Oriented Programming and Design</p>
                                 </div>
                                 <div style={{
                                     display: "flex",
@@ -484,7 +484,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>Scripting</p>
+                                    <p>Full Stack web development</p>
                                 </div>
                             </div>
                         </div>
