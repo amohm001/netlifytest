@@ -307,7 +307,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>Jira</p>
+                                    <p>Git & Github</p>
                                 </div>
                                 <div style={{
                                     display: "flex",
@@ -315,7 +315,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>Git & Github</p>
+                                    <p>Jira</p>
                                 </div>
                                 <div style={{
                                     display: "flex",

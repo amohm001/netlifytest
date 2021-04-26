@@ -160,6 +160,16 @@ class Experience extends Component {
                     color: "rgb(240, 243, 255)"
                 }}>
                     <h2>
+                        Software Engineer 
+                        <h3 style={{fontSize:"12px"}}> Kansas City, MO</h3>
+                        <h3 style={{fontSize:"12px"}}> Feb 2021 - Present</h3>
+                        
+                        <h6 style={{ fontSize: "calc(1vw + 0.5vh + .5vmin)", fontWeight: "lighter" }}>
+                        <img src={tri} style={{ height: "20px" }} />
+                        Actively working as a software engineer to enhance and have a positive impact on healthcare IT.
+                        </h6>
+                    </h2>
+                    <h2>
                         Python Programming Teaching assistant(TA) 
                         <h3 style={{fontSize:"12px"}}> Plattsburgh, NY</h3>
                         <h3 style={{fontSize:"12px"}}> Jan 2020 - May 2020</h3>
