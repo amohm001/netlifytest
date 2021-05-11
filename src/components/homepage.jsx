@@ -179,7 +179,7 @@ class Home extends Component {
                             fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                             letterSpacing: "0.5emm",
                             fontSize: "13px",
-                        }}> Web & Software developer.</h2>
+                        }}> Software Engineer/developer.</h2>
                         <div style={{
                             color: "#fafafa", marginLeft: "70px",
                             fontWeight: "700",
