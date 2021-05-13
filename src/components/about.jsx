@@ -185,11 +185,12 @@ class About extends Component {
                                 fontFamily: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace",
                                 lineHeight: "40px"
 
-                            }}>  Hey, hi! I am Amir, a web and software developer who enjoys solving real-world problems using technology.
-                                I have recently accepted an offer to join Cerner Corporation for the role of Software Engineer.
-                                Actively working to enhance the school atmosphere of my colleagues at SUNY Plattsburgh by building accessible and innovative software applications.
+                            }}>  Hey, hi! I am Amir, a software engineer who enjoys solving real-world problems using technology.
+                                I currently work for a healthcare software company Cerner Corporation for the role of Software Engineer.
+                                Actively working to have a positive impact on healthcare information technology and software development.
+                                In the past, I used to be active on working to enhance the school atmosphere of my colleagues at SUNY Plattsburgh by building accessible and innovative software applications.
                                 I like working with various technologies, be directly involved in the entire process of development, and work with talented individuals to produce outcomes that will have an adverse impact.
-                                My ideas usually come from a problem I want to solve and I learn and improve my coding skills by working on and addressing the problem.
+                                My ideas usually come from a problem I want to solve and I learn and improve my skills by working on and addressing the problem.
                                 Please don't hesitate to contact me at anytime.</p>
 
                         </div>
