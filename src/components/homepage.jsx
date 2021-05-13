@@ -323,7 +323,7 @@ class Home extends Component {
                                     textAlign: "left"
                                 }}>
                                     <img src={tri} style={{ height: "20px" }} />
-                                    <p>AdobeXD</p>
+                                    <p>Docker</p>
                                 </div>
                                 <div style={{
                                     display: "flex",
