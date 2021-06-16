@@ -250,7 +250,7 @@ class Experience extends Component {
                             database. The web app had various functionalities such as: only allowing authenticated users with
                             a valid school email-address post items, create an account using school-email and password, let
                             others users see and contact the sellers. The link for the project's github repository of this project is
-                            <a href="https://github.com/BurghyDeals/burghy-deals/tree/loginpage"> <img src = {github} style = {{height:"30px", paddingLeft: "10px"}}/>
+                            <a href="https://github.com/amohm001/burghyDeals/"> <img src = {github} style = {{height:"30px", paddingLeft: "10px"}}/>
                         </a>
 
                         </h6>
