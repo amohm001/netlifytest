@@ -220,7 +220,7 @@ class Home extends Component {
                             <a href="https://github.com/amohm001" style={{ paddingRight: "20px" }}>
                                 <img src={github} />
                             </a>
-                            <a href="https://www.linkedin.com/in/Amir-mohmed-9b769217b/" style={{ paddingRight: "20px" }}>
+                            <a href="https://www.linkedin.com/in/amire-mohmed-9b769217b/" style={{ paddingRight: "20px" }}>
                                 <img src={linkedin} />
                             </a>
                             <a href="https://www.instagram.com/amir.mohmedd/" style={{ paddingRight: "20px" }}>
